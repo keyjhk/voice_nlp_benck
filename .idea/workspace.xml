@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/AlbumArtSmall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Folder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/new file.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <updated>1642424438230</updated>
       <workItem from="1642424441076" duration="613000" />
       <workItem from="1642470574112" duration="2619000" />
-      <workItem from="1642511655016" duration="15592000" />
+      <workItem from="1642511655016" duration="20326000" />
     </task>
     <servers />
   </component>
@@ -119,22 +116,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="53" width="773" height="717" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1642570810548" />
-    <state width="1483" height="262" key="GridCell.Tab.0.bottom" timestamp="1642583740817">
+    <state width="1483" height="285" key="GridCell.Tab.0.bottom" timestamp="1642592900859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642583740817" />
-    <state width="1483" height="262" key="GridCell.Tab.0.center" timestamp="1642583740816">
+    <state width="1483" height="285" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642592900859" />
+    <state width="1483" height="285" key="GridCell.Tab.0.center" timestamp="1642592900859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642583740816" />
-    <state width="1483" height="262" key="GridCell.Tab.0.left" timestamp="1642583740816">
+    <state width="1483" height="285" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642592900859" />
+    <state width="1483" height="285" key="GridCell.Tab.0.left" timestamp="1642592900859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642583740816" />
-    <state width="1483" height="262" key="GridCell.Tab.0.right" timestamp="1642583740817">
+    <state width="1483" height="285" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642592900859" />
+    <state width="1483" height="285" key="GridCell.Tab.0.right" timestamp="1642592900859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642583740817" />
+    <state width="1483" height="285" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642592900859" />
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1642511655103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -145,8 +142,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recorder/views.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="4" />
+          <line>33</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
