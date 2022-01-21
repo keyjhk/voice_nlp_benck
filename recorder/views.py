@@ -11,9 +11,14 @@ TEMP_DIR = os.path.join(settings.MEDIA_ROOT, 'temp')
 
 
 class RecorderView(APIView):
+    def judge(self, func, *args, **kwargs):
+        # func is the api
+        # return func(*args,**kwargs)
+        return True  # for test
+
     def merge_files(self, fname, chunks):
         # pfname:fname_part_xx
-        print('chunks',chunks)
+        print('chunks', chunks)
         media_root = settings.MEDIA_ROOT
         temp_dir = TEMP_DIR
         part_files = filter(lambda pfname: fname in pfname, [file for file in os.listdir(temp_dir)])
@@ -39,8 +44,9 @@ class RecorderView(APIView):
         with open(save_dir, 'wb') as f:
             for chunk in file.chunks(): f.write(chunk)
 
-        file_url = request.build_absolute_uri(save_dir + fname)
-        return Response({'url': file_url}, status=status.HTTP_200_OK)
+        file_url = request.build_absolute_uri(settings.MEDIA_URL + fname)
+        judge_result = self.judge(lambda x: True, file)
+        return Response({'url': file_url, 'judge': judge_result}, status=status.HTTP_200_OK)
 
     def put(self, request):
         # merge part files

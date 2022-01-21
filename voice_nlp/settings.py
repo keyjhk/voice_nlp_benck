@@ -13,6 +13,10 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 import os
 
+# redis
+REDIS_HOST = None  # str
+REDIS_PWD = None  # str
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -37,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-     'corsheaders',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -82,6 +86,21 @@ DATABASES = {
     }
 }
 
+# CACHES
+if REDIS_HOST and REDIS_PWD:
+    CACHES = {
+        "default": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": REDIS_HOST,
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+                "CONNECTION_POOL_KWARGS": {"max_connections": 100},
+                "PASSWORD": REDIS_PWD,
+                "DECODE_RESPONSES": True
+            }
+        },
+    }
+
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
@@ -124,4 +143,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOW_ALL_ORIGINS =True
+CORS_ALLOW_ALL_ORIGINS = True
