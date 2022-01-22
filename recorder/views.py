@@ -52,7 +52,6 @@ class RecorderView(APIView):
         with open(save_dir, 'wb') as f:
             for chunk in file.chunks(): f.write(chunk)
 
-        # judge
         answer=QuesAnswers.current_answer  # string, the answer for current question
         print('answer for current question:',answer)
         judge_result = self.judge(lambda q, a: True, file)

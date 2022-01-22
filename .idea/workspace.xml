@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recorder/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recorder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice_nlp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voice_nlp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -103,7 +104,7 @@
       <updated>1642424438230</updated>
       <workItem from="1642424441076" duration="613000" />
       <workItem from="1642470574112" duration="2619000" />
-      <workItem from="1642511655016" duration="45129000" />
+      <workItem from="1642511655016" duration="47679000" />
     </task>
     <servers />
   </component>
