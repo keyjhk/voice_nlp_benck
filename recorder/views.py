@@ -1,18 +1,23 @@
 import os, time
+import redis
 
-from django.shortcuts import render
+import django_redis
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from django.conf import settings
 
+from .models import *
+
 # Create your views here.
 TEMP_DIR = os.path.join(settings.MEDIA_ROOT, 'temp')
+CACHE = django_redis.get_redis_connection()
+QuesAnswers = QAPairs()
 
 
 class RecorderView(APIView):
     def judge(self, func, *args, **kwargs):
-        # func is the api
+        # api for judge function , return Boolean value
         # return func(*args,**kwargs)
         return True  # for test
 
@@ -33,19 +38,25 @@ class RecorderView(APIView):
                 os.remove(os.path.join(temp_dir, pf))
 
     def get(self, request):
-        return Response('hello recorder!')
+        q,a = QuesAnswers.get_qa()
+        # print(QuesAnswers.current_answer)
+        return Response({'text': q})
 
     def post(self, request):
-        file = request.data['file']
+        file = request.data['file']  # audio file ,xx.wav
+        # save
         save_dir = TEMP_DIR if request.data.get('is_chunk') else settings.MEDIA_ROOT
         if not os.path.exists(save_dir): os.mkdir(save_dir)
-        fname = file.name  # file object
+        fname = file.name
         save_dir = os.path.join(save_dir, fname)
         with open(save_dir, 'wb') as f:
             for chunk in file.chunks(): f.write(chunk)
 
+        # judge
+        answer=QuesAnswers.current_answer  # string, the answer for current question
+        print('answer for current question:',answer)
+        judge_result = self.judge(lambda q, a: True, file)
         file_url = request.build_absolute_uri(settings.MEDIA_URL + fname)
-        judge_result = self.judge(lambda x: True, file)
         return Response({'url': file_url, 'judge': judge_result}, status=status.HTTP_200_OK)
 
     def put(self, request):

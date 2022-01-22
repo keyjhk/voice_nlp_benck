@@ -14,8 +14,9 @@ from pathlib import Path
 import os
 
 # redis
-REDIS_HOST = None  # str
-REDIS_PWD = None  # str
+REDIS_HOST = '127.0.0.1'  # str
+REDIS_PORT=6379 # int
+REDIS_PWD = ''  # str
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -87,11 +88,11 @@ DATABASES = {
 }
 
 # CACHES
-if REDIS_HOST and REDIS_PWD:
+if REDIS_HOST:
     CACHES = {
         "default": {
             "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": REDIS_HOST,
+            "LOCATION": "redis://{}:{}".format(REDIS_HOST,REDIS_PORT),
             "OPTIONS": {
                 "CLIENT_CLASS": "django_redis.client.DefaultClient",
                 "CONNECTION_POOL_KWARGS": {"max_connections": 100},
