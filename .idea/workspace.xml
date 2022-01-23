@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/voice_nlp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/settings.py" afterDir="false" />
@@ -47,7 +46,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Django server.voice_nlp">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="voice_nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +76,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="voice_nlp.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\hollis\miniconda3\envs\py38\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -93,11 +92,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Django server.voice_nlp" />
+      <item itemvalue="Python.test" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -112,7 +110,7 @@
       <workItem from="1642424441076" duration="613000" />
       <workItem from="1642470574112" duration="2619000" />
       <workItem from="1642511655016" duration="48956000" />
-      <workItem from="1642854940077" duration="6429000" />
+      <workItem from="1642854940077" duration="8303000" />
     </task>
     <servers />
   </component>
@@ -120,6 +118,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642920864943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1642920864943" />
     <state x="452" y="198" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642574712881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -132,22 +134,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642682904865" />
-    <state width="1483" height="280" key="GridCell.Tab.0.bottom" timestamp="1642918161196">
+    <state width="1483" height="282" key="GridCell.Tab.0.bottom" timestamp="1642921309359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642918161196" />
-    <state width="1483" height="280" key="GridCell.Tab.0.center" timestamp="1642918161195">
+    <state width="1483" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642921309359" />
+    <state width="1483" height="282" key="GridCell.Tab.0.center" timestamp="1642921309359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="280" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642918161195" />
-    <state width="1483" height="280" key="GridCell.Tab.0.left" timestamp="1642918161195">
+    <state width="1483" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642921309359" />
+    <state width="1483" height="282" key="GridCell.Tab.0.left" timestamp="1642921309359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="280" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642918161195" />
-    <state width="1483" height="280" key="GridCell.Tab.0.right" timestamp="1642918161195">
+    <state width="1483" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642921309359" />
+    <state width="1483" height="282" key="GridCell.Tab.0.right" timestamp="1642921309359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="280" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642918161195" />
+    <state width="1483" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642921309359" />
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1642854940323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

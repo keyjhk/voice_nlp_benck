@@ -15,7 +15,7 @@ import os
 
 # redis
 REDIS_HOST = '127.0.0.1'  # str
-REDIS_PORT=6379 # int
+REDIS_PORT = 6379  # int
 REDIS_PWD = ''  # str
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -61,7 +61,9 @@ ROOT_URLCONF = 'voice_nlp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),  # default
+                 os.path.join(BASE_DIR, 'dist')
+                 ]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -92,7 +94,7 @@ if REDIS_HOST:
     CACHES = {
         "default": {
             "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": "redis://{}:{}".format(REDIS_HOST,REDIS_PORT),
+            "LOCATION": "redis://{}:{}".format(REDIS_HOST, REDIS_PORT),
             "OPTIONS": {
                 "CLIENT_CLASS": "django_redis.client.DefaultClient",
                 "CONNECTION_POOL_KWARGS": {"max_connections": 100},
@@ -135,7 +137,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'dist/static'),
+    os.path.join(BASE_DIR, 'static'),  # default
+]
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
