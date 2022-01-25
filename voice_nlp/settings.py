@@ -14,9 +14,10 @@ from pathlib import Path
 import os
 
 # redis
-REDIS_HOST = '127.0.0.1'  # str
-REDIS_PORT = 6379  # int
-REDIS_PWD = ''  # str
+REDIS_HOST = '172.26.0.3'  # str
+# REDIS_HOST = '43.130.45.210'  # str
+REDIS_PORT=6379 # int
+REDIS_PWD = '123456'  # str
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -127,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/shanghai'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
