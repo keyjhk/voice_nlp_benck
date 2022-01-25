@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tjp">
     <serverData>
       <paths name="AMAX">
         <serverdata>
@@ -23,6 +23,16 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="tjp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="voice_nlp" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/media" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="矩阵云">
         <serverdata>
           <mappings>
@@ -38,5 +48,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
