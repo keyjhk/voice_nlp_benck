@@ -1,0 +1,14 @@
+I0125 15:16:50.449466  6128 params.h:100] Reading model /home/20210602_unified_transformer_server/final.zip
+I0125 15:16:50.643362  6128 torch_asr_model.cc:38] torch model info subsampling_rate 4 right context 6 sos 5205 eos 5205 is bidirectional decoder 0 num threads 1
+I0125 15:16:50.643399  6128 params.h:113] Reading symbol table /home/20210602_unified_transformer_server/words.txt
+I0125 15:16:50.648386  6128 params.h:125] Use symbol table as unit table
+F0125 15:16:50.654381  6128 decoder_main.cc:59] Check failed: wav_reader.sample_rate() == FLAGS_sample_rate (48000 vs. 16000) 
+*** Check failure stack trace: ***
+    @     0x7f3cc8631582  google::LogMessage::Fail()
+    @     0x7f3cc86314ca  google::LogMessage::SendToLog()
+    @     0x7f3cc8630e0b  google::LogMessage::Flush()
+    @     0x7f3cc86346bc  google::LogMessageFatal::~LogMessageFatal()
+    @     0x5590ca5a2c1e  main
+    @     0x7f3cc7229bf7  __libc_start_main
+    @     0x5590ca5a17ea  _start
+    @              (nil)  (unknown)
