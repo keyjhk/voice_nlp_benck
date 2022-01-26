@@ -2,101 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/static/css/app.fd1f61bd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/css/chunk-vendors.caa671fd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.535877f5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.732389de.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u10.ee87285e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u1304.6460ef61.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u1309.dc643098.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u22.9165e3f1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u262.517e01d5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u263.e4bc355b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u264.92264190.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u265.c0ded84b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u266.6be043ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u267.464fb649.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u268.10c6f1ce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u273.03ce0e0b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u274.3d64944a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u275.76ca9bfc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u28.4a897a81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u289.d079f446.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u29.dfb84001.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u296.08cf2bd6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u297.09ddc6fe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u300.0367ecb2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u301.98cc2d6c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u302.57889dcb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u307.f172af87.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u312.fca8159c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u32.3cbaf4c2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u523.767bb0ea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u524.6127a7b2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u7_state0.9c52500a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u979.4cf956be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u979_selected.9f665c5c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u988.b25a6d57.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u989.243bbfdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u994.0f85dd7b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/u997.c086e656.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/img/边框_u18.20724ee5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recorder/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testASD.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uwsgi_log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uwsgi_pid.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.88eddff8.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist_copy/static/css/app.88eddff8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u10.ee87285e.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u10.53ce31f7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u1304.6460ef61.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u1304.21c46e1b.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u1309.dc643098.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u1309.f3943986.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u22.9165e3f1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u22.9f541415.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u262.517e01d5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u262.fedae264.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u263.e4bc355b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u263.1e385dcd.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u264.92264190.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u264.d06c34b4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u265.c0ded84b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u265.c7dd68f9.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u266.6be043ba.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u266.273553a1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u267.464fb649.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u267.0d6c5d22.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u268.10c6f1ce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u268.8121a8a8.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u273.03ce0e0b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u273.93f5c7a6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u274.3d64944a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u274.5cb3bd61.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u275.76ca9bfc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u275.6fdf33e6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u29.dfb84001.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u29.29205e06.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u296.08cf2bd6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u296.ac908f52.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u297.09ddc6fe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u297.142b82c7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u300.0367ecb2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u300.8b8ec1f0.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u301.98cc2d6c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u301.4d93dac3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u302.57889dcb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u302.6aa6b968.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u307.f172af87.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u307.2005d2b0.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u312.fca8159c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u312.254826f4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u32.3cbaf4c2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u32.813accb4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u523.767bb0ea.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u523.7ac7055c.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u524.6127a7b2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u524.010775d5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u979.4cf956be.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u979.c4b42287.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u979_selected.9f665c5c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u979_selected.7760f04b.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u988.b25a6d57.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u988.3c24e1ba.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u989.243bbfdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u989.04c759f6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u994.0f85dd7b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u994.d160b840.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u997.c086e656.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/u997.6d9abd39.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/边框_u18.20724ee5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/img/边框_u18.ce171859.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.c79c69ad.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.c79c69ad.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.8146ca82.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.8146ca82.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recorder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice_nlp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.fd1f61bd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-vendors.caa671fd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.535877f5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.732389de.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u10.53ce31f7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u1304.21c46e1b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u1309.f3943986.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u22.9f541415.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u262.fedae264.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u263.1e385dcd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u264.d06c34b4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u265.c7dd68f9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u266.273553a1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u267.0d6c5d22.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u268.8121a8a8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u273.93f5c7a6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u274.5cb3bd61.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u275.6fdf33e6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u28.4a897a81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u289.d079f446.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u29.29205e06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u296.ac908f52.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u297.142b82c7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u300.8b8ec1f0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u301.4d93dac3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u302.6aa6b968.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u307.2005d2b0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u312.254826f4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u32.813accb4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u523.7ac7055c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u524.010775d5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u7_state0.9c52500a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u979.c4b42287.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u979_selected.7760f04b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u988.3c24e1ba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u989.04c759f6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u994.d160b840.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/u997.6d9abd39.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/边框_u18.ce171859.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5036a7dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5036a7dc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.55e2c84b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.55e2c84b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/css/app.88eddff8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/css/chunk-vendors.caa671fd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.535877f5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.732389de.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u10.ee87285e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u1304.6460ef61.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u1309.dc643098.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u22.9165e3f1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u262.517e01d5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u263.e4bc355b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u264.92264190.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u265.c0ded84b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u266.6be043ba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u267.464fb649.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u268.10c6f1ce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u273.03ce0e0b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u274.3d64944a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u275.76ca9bfc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u28.4a897a81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u289.d079f446.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u29.dfb84001.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u296.08cf2bd6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u297.09ddc6fe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u300.0367ecb2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u301.98cc2d6c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u302.57889dcb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u307.f172af87.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u312.fca8159c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u32.3cbaf4c2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u523.767bb0ea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u524.6127a7b2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u7_state0.9c52500a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u979.4cf956be.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u979_selected.9f665c5c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u988.b25a6d57.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u989.243bbfdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u994.0f85dd7b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u997.c086e656.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/边框_u18.20724ee5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +213,7 @@
       <workItem from="1642511655016" duration="48956000" />
       <workItem from="1642854940077" duration="15194000" />
       <workItem from="1642967060760" duration="3699000" />
-      <workItem from="1643118829766" duration="295000" />
+      <workItem from="1643118829766" duration="2467000" />
     </task>
     <servers />
   </component>
