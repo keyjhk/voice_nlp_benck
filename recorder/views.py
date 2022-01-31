@@ -8,7 +8,7 @@ from rest_framework import status
 from django.conf import settings
 import sys
 # sys.path.append('/home/wenet/runtime/server/x86/')
-sys.path.insert(0,'/home/wenet/runtime/server/x86/')
+# sys.path.insert(0,'/home/wenet/runtime/server/x86/')
 #import voice2text
 
 from .models import *

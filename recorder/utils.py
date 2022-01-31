@@ -1,8 +1,11 @@
 import gensim
 import jieba
-model = gensim.models.KeyedVectors.load_word2vec_format('E:\\PycharmProjects\\电信项目\\word2vec.bin',binary=True,unicode_errors='ignore')
+import os
+import re
+# model = gensim.models.KeyedVectors.load_word2vec_format('E:\\PycharmProjects\\电信项目\\word2vec.bin',binary=True,unicode_errors='ignore')
+model = gensim.models.KeyedVectors.load_word2vec_format('/home/model/word2vec_779845.bin',binary=True,unicode_errors='ignore')
 
-def jieba_cut(self, content):
+def jieba_cut(content):
     word_list = []
     if content != "" and content is not None:
         seg_list = jieba.cut(content)
@@ -13,7 +16,7 @@ def jieba_cut(self, content):
 
 
 # 清除不在词汇表中的词语
-def clear_word_from_vocab(self, word_list, vocab):
+def clear_word_from_vocab(word_list, vocab):
     new_word_list = []
     for word in word_list:
         if word in vocab:
@@ -39,11 +42,23 @@ def text_sim(text1, text2):
     else:
         return None
 
+def voice2t(voice_path):
+    os.system('/home/wenet/runtime/server/x86/main.sh ' + voice_path + ' 2>&1 | tee /home/wenet/runtime/server/x86/log.txt')
+    with open("/home/wenet/runtime/server/x86/log.txt", "r", encoding="utf-8") as fread:
+        data = fread.read()
+    print("**********************")
+    data = "".join(data)
+    text = re.findall(r'test Final result: (.*)', str(data))
+    if (len(text) > 0):
+        return text[-1]
+    else:
+        return None
+
 def judge(answer_redis,save_dir):
     # api for judge function , return Boolean value
     # return func(*args,**kwargs)
-    #vt= voice2text(save_dir)
-    # text2=self.voice2t(save_dir)
-    text2 ="你好"
+
+    text2=voice2t(save_dir)
+    # text2 ="你好"
     res=text_sim(answer_redis,text2)
     return res
