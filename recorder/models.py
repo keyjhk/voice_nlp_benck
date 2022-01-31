@@ -1,5 +1,6 @@
 import django_redis
 from django.db import models
+from django.core.cache import cache
 
 
 # Create your models here.
@@ -24,10 +25,15 @@ class QAPairs:
         return self.current_question,self.current_answer
 
     def get_qalist(self):
-        q_list=self.redis.keys()
+        q_list= self.redis.keys("question_*")
+
         return q_list
 
 
     def get_answer(self,question):
         answer = self.redis.get(question)
         return answer
+
+    def get_filepath(self,question):
+        file_path = self.redis.get(question)
+        return file_path
