@@ -22,3 +22,12 @@ class QAPairs:
     def get_qa(self):
         self.current_question, self.current_answer = next(self.pairs)
         return self.current_question,self.current_answer
+
+    def get_qalist(self):
+        q_list=self.redis.keys()
+        return q_list
+
+
+    def get_answer(self,question):
+        answer = self.redis.get(question)
+        return answer

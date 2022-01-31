@@ -2,103 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/voice_nlp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/voice_nlp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.fd1f61bd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/chunk-vendors.caa671fd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.535877f5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.732389de.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u10.53ce31f7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u1304.21c46e1b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u1309.f3943986.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u22.9f541415.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u262.fedae264.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u263.1e385dcd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u264.d06c34b4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u265.c7dd68f9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u266.273553a1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u267.0d6c5d22.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u268.8121a8a8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u273.93f5c7a6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u274.5cb3bd61.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u275.6fdf33e6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u28.4a897a81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u289.d079f446.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u29.29205e06.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u296.ac908f52.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u297.142b82c7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u300.8b8ec1f0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u301.4d93dac3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u302.6aa6b968.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u307.2005d2b0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u312.254826f4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u32.813accb4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u523.7ac7055c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u524.010775d5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u7_state0.9c52500a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u979.c4b42287.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u979_selected.7760f04b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u988.3c24e1ba.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u989.04c759f6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u994.d160b840.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/u997.6d9abd39.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/img/边框_u18.ce171859.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5036a7dc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.5036a7dc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.55e2c84b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.55e2c84b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.dd4b6f6a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/chunk-vendors.4ec2966d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/css/app.88eddff8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/css/chunk-vendors.caa671fd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.535877f5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/fonts/element-icons.732389de.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u10.ee87285e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u1304.6460ef61.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u1309.dc643098.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u22.9165e3f1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u262.517e01d5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u263.e4bc355b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u264.92264190.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u265.c0ded84b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u266.6be043ba.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u267.464fb649.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u268.10c6f1ce.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u273.03ce0e0b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u274.3d64944a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u275.76ca9bfc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u28.4a897a81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u289.d079f446.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u29.dfb84001.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u296.08cf2bd6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u297.09ddc6fe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u300.0367ecb2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u301.98cc2d6c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u302.57889dcb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u307.f172af87.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u312.fca8159c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u32.3cbaf4c2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u523.767bb0ea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u524.6127a7b2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u7_state0.9c52500a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u979.4cf956be.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u979_selected.9f665c5c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u988.b25a6d57.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u989.243bbfdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u994.0f85dd7b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/u997.c086e656.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/img/边框_u18.20724ee5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.55e2c84b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/app.c79c69ad.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_copy/static/js/chunk-vendors.8146ca82.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorder/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice_nlp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -136,11 +48,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recorder" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\电信项目\voice_nlp_benck\recorder" />
       <recent name="D:\python code\voice_nlp" />
       <recent name="D:\python code\voice_nlp\templates" />
       <recent name="D:\python code\voice_nlp\static" />
@@ -177,14 +90,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="voice_nlp.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\hollis\miniconda3\envs\py38\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="http://localhost:8000/" />
       <option name="runTestServer" value="false" />
@@ -214,6 +127,8 @@
       <workItem from="1642854940077" duration="15194000" />
       <workItem from="1642967060760" duration="3699000" />
       <workItem from="1643118829766" duration="2467000" />
+      <workItem from="1643541838563" duration="4172000" />
+      <workItem from="1643595078601" duration="9019000" />
     </task>
     <servers />
   </component>
@@ -225,10 +140,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="261" y="0" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1642967092858" />
-    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642971665606">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="223" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643541895085">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1642971665606" />
+    <state x="223" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1643541895085" />
     <state x="452" y="198" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642574712881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -237,30 +153,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="53" width="773" height="717" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1642570810548" />
-    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1642940028629">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="499" y="112" key="FileChooserDialogImpl" timestamp="1643544478767">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642940028629" />
-    <state width="1483" height="242" key="GridCell.Tab.0.bottom" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="499" y="112" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1643544478767" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1643601059498">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
-    <state width="1483" height="242" key="GridCell.Tab.0.center" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643601059498" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1643601059498">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
-    <state width="1483" height="242" key="GridCell.Tab.0.left" timestamp="1642971698477">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1643601059498" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1643601059497">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642971698477" />
-    <state width="1483" height="242" key="GridCell.Tab.0.right" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1643601059497" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1643601059498">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1643601059498" />
+    <state x="270" y="59" key="SettingsEditor" timestamp="1643595769991">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1643595769991" />
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1643118829732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1643118829732" />
+    <state x="566" y="300" key="publish.login" timestamp="1643595493551">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="300" key="publish.login/0.0.1536.834@0.0.1536.834" timestamp="1643595493551" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1642970480836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -275,7 +204,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recorder/views.py</url>
-          <line>112</line>
+          <line>66</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
