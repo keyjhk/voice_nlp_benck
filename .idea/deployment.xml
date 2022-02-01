@@ -1,46 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="tjp">
+  <component name="PublishConfigData" autoUpload="Always">
     <serverData>
-      <paths name="AMAX">
+      <paths name="root@net.videojj.com:6982">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="docker">
+      <paths name="root@net.videojj.com:6982 (1)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="docker_Hollis">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="tjp">
-        <serverdata>
-          <mappings>
-            <mapping deploy="voice_nlp" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/media" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="矩阵云">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="西邮slave1">
+      <paths name="root@net.videojj.com:6982 (2)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

@@ -14,9 +14,10 @@ from pathlib import Path
 import os
 
 # redis
-REDIS_HOST = '172.26.0.3'  # str
-# REDIS_HOST = '43.130.45.210'  # str
-REDIS_PORT=6379 # int
+# REDIS_HOST = '172.26.0.3'  # str
+# REDIS_HOST = '192.168.1.140'  # str
+REDIS_HOST = '170.106.154.208'  # str
+REDIS_PORT = 6379  # int
 REDIS_PWD = '123456'  # str
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -149,7 +150,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'dist/static'),
     os.path.join(BASE_DIR, 'static'),  # default
 ]
 

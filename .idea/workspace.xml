@@ -4,6 +4,12 @@
     <list default="true" id="7bc04e24-8b75-4b27-a184-902a90ef3c8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/recorder/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recorder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice_nlp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_nlp/settings.py" afterDir="false" />
+>>>>>>> 58cfbe82ddb46a608ed5f7baa4f73e583182916b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -41,11 +47,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recorder" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\电信项目\voice_nlp_benck\recorder" />
       <recent name="D:\python code\voice_nlp" />
       <recent name="D:\python code\voice_nlp\templates" />
       <recent name="D:\python code\voice_nlp\static" />
@@ -82,14 +89,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="voice_nlp.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\hollis\miniconda3\envs\py38\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="http://localhost:8000/" />
       <option name="runTestServer" value="false" />
@@ -118,9 +125,15 @@
       <workItem from="1642511655016" duration="48956000" />
       <workItem from="1642854940077" duration="15194000" />
       <workItem from="1642967060760" duration="3699000" />
+<<<<<<< HEAD
       <workItem from="1643118829766" duration="3741000" />
       <workItem from="1643340899833" duration="7000" />
       <workItem from="1643340935735" duration="5793000" />
+=======
+      <workItem from="1643118829766" duration="2467000" />
+      <workItem from="1643541838563" duration="4172000" />
+      <workItem from="1643595078601" duration="15028000" />
+>>>>>>> 58cfbe82ddb46a608ed5f7baa4f73e583182916b
     </task>
     <servers />
   </component>
@@ -132,10 +145,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="261" y="0" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1642967092858" />
-    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642971665606">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="223" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643541895085">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1642971665606" />
+    <state x="223" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1643541895085" />
     <state x="452" y="198" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642574712881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,34 +158,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="53" width="773" height="717" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1642570810548" />
-    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1642940028629">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="499" y="112" key="FileChooserDialogImpl" timestamp="1643544478767">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642940028629" />
-    <state width="1483" height="242" key="GridCell.Tab.0.bottom" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="499" y="112" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1643544478767" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1643617426040">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
-    <state width="1483" height="242" key="GridCell.Tab.0.center" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1643617426040" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1643617426040">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
-    <state width="1483" height="242" key="GridCell.Tab.0.left" timestamp="1642971698477">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1643617426040" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1643617426040">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642971698477" />
-    <state width="1483" height="242" key="GridCell.Tab.0.right" timestamp="1642971698478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1643617426040" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1643617426040">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1483" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642971698478" />
+<<<<<<< HEAD
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1643340935429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1643340935429" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1642970480836">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1643617426040" />
+    <state x="270" y="59" key="SettingsEditor" timestamp="1643595769991">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1643595769991" />
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1643118829732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1643118829732" />
+    <state x="566" y="300" key="publish.login" timestamp="1643595493551">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="300" key="publish.login/0.0.1536.834@0.0.1536.834" timestamp="1643595493551" />
+    <state x="347" y="-1" width="840" height="1047" key="search.everywhere.popup" timestamp="1643612121722">
+      <screen x="0" y="0" width="1536" height="834" />
+>>>>>>> 58cfbe82ddb46a608ed5f7baa4f73e583182916b
     </state>
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1642970480836" />
+    <state x="347" y="-1" width="840" height="1047" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1643612121722" />
     <state x="538" y="253" key="webDeployment.PermissionsDialog" timestamp="1642968315785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -182,7 +219,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recorder/views.py</url>
-          <line>112</line>
+          <line>66</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
