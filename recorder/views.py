@@ -12,6 +12,7 @@ import sys
 # import voice2text
 
 from .models import *
+from django.db import connection
 
 # Create your views here.
 TEMP_DIR = os.path.join(settings.MEDIA_ROOT, 'temp')
@@ -55,10 +56,10 @@ class RecorderView(APIView):
                 print('merge {}'.format(pf))
                 os.remove(os.path.join(temp_dir, pf))
 
-    def get(self, request):
-        q, a = QuesAnswers.get_qa()
-        # print(QuesAnswers.current_answer)
-        return Response({'text': q})
+    # def get(self, request):
+    #     q, a = QuesAnswers.get_qa()
+    #     # print(QuesAnswers.current_answer)
+    #     return Response({'text': q})
 
     def post(self, request):
         file = request.data['file']  # audio file ,xx.wav
