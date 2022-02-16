@@ -3,9 +3,9 @@ import jieba
 import os
 import re
 
-# model = gensim.models.KeyedVectors.load_word2vec_format('E:\\PycharmProjects\\电信项目\\word2vec.bin',binary=True,unicode_errors='ignore')
-model = gensim.models.KeyedVectors.load_word2vec_format('/home/model/word2vec_779845.bin', binary=True,
-                                                        unicode_errors='ignore')
+# # model = gensim.models.KeyedVectors.load_word2vec_format('E:\\PycharmProjects\\电信项目\\word2vec.bin',binary=True,unicode_errors='ignore')
+# model = gensim.models.KeyedVectors.load_word2vec_format('/home/model/word2vec_779845.bin', binary=True,
+#                                                         # unicode_errors='ignore')
 
 
 def jieba_cut(content):
@@ -27,25 +27,45 @@ def clear_word_from_vocab(word_list, vocab):
     return new_word_list
 
 
-def text_sim(text1, text2):
-    res1 = jieba_cut(text1)
-    res2 = jieba_cut(text2)
-    print(text1)
-    print(text2)
+# def text_sim(text1, text2):
+#     res1 = jieba_cut(text1)
+#     res2 = jieba_cut(text2)
+#     print(text1)
+#     print(text2)
+#
+#     vocab = set(model.wv.vocab.keys())
+#     res1_clear = clear_word_from_vocab(res1, vocab)
+#     res2_clear = clear_word_from_vocab(res2, vocab)
+#     if len(res1_clear) > 0 and len(res2_clear) > 0:
+#         res = model.n_similarity(res1_clear, res2_clear)
+#         print(res)
+#         if float(res) > 0.4:
+#             return True
+#         else:
+#             return False
+#     else:
+#         return None
 
-    vocab = set(model.wv.vocab.keys())
-    res1_clear = clear_word_from_vocab(res1, vocab)
-    res2_clear = clear_word_from_vocab(res2, vocab)
-    if len(res1_clear) > 0 and len(res2_clear) > 0:
-        res = model.n_similarity(res1_clear, res2_clear)
+def text_sim_new(text1, text2):
+    terms_reference = jieba.cut(text2)  # 默认精准模式
+    terms_model = jieba.cut(text1)
+    grams_reference = set(terms_reference)  # 去重；如果不需要就改为list
+    grams_model = set(terms_model)
+    temp = 0
+    for i in grams_reference:
+        if i in grams_model:
+            temp = temp + 1
+    fenmu = len(grams_model) + len(grams_reference) - temp  # 并集
+    res = float(temp / fenmu)  # 交集
+
+    if len(grams_model) > 0 and len(grams_reference) > 0:
         print(res)
-        if float(res) > 0.4:
+        if float(res) > 0.3:
             return True
         else:
             return False
     else:
         return None
-
 
 def voice2t(voice_path):
     os.system(
@@ -61,7 +81,7 @@ def voice2t(voice_path):
         return None
 
 
-def judge(answer_redis, save_dir):
+def judge_deal(answer, save_dir):
     text2 = voice2t(save_dir)
-    res = text_sim(answer_redis, text2)
+    res = text_sim_new(answer, text2)
     return res

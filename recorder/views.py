@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from django.conf import settings
+from .utils import judge_deal
 import sys
 # sys.path.append('/home/wenet/runtime/server/x86/')
 # sys.path.insert(0,'/home/wenet/runtime/server/x86/')
@@ -20,10 +21,10 @@ CACHE = django_redis.get_redis_connection()
 QuesAnswers = QAPairs()
 
 
-def judge(*args, **kwargs):
+def judge(answer,save_dir):
     # from . import utils
-    # return utils.judge(*args,**kwargs)
-    return True  # for hollis test in win system
+    return judge_deal(answer,save_dir)
+    # return True  # for hollis test in win system
 
 
 class RecorderView(APIView):
@@ -98,13 +99,13 @@ class QuestionView(APIView):
 
     def post(self, request):
         file = request.data['file']  # audio file ,xx.wav
-        redis_answer = request.data.get('answer')
+        answer = request.data.get('answer')
 
         save_dir = TEMP_DIR if request.data.get('is_chunk') else settings.MEDIA_ROOT
         if not os.path.exists(save_dir): os.mkdir(save_dir)
         fname = file.name
         save_dir = os.path.join(save_dir, fname)
-        res = judge(redis_answer, save_dir)
+        res = judge(answer, save_dir)
 
         return Response({'answer': res}, status=status.HTTP_200_OK)
 
