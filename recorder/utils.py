@@ -86,7 +86,7 @@ def text_sim_match(text1, text2):
         if i in s1:
            count=count+1
 
-    if count / len(s2)>0.7:
+    if count / len(s2)>0.5:
         return  True
 
     return False
