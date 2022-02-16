@@ -108,5 +108,7 @@ def voice2t(voice_path):
 
 def judge_deal(answer, save_dir):
     text2 = voice2t(save_dir)
-    res = text_sim_match(text2,answer)
-    return res
+    if text2!=None and text2!="":
+        res = text_sim_match(text2,answer)
+        return res
+    return False
