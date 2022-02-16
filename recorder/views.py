@@ -105,6 +105,9 @@ class QuestionView(APIView):
         if not os.path.exists(save_dir): os.mkdir(save_dir)
         fname = file.name
         save_dir = os.path.join(save_dir, fname)
+
+        with open(save_dir, 'wb') as f:
+            for chunk in file.chunks(): f.write(chunk)
         res = judge(answer, save_dir)
 
         return Response({'answer': res}, status=status.HTTP_200_OK)
