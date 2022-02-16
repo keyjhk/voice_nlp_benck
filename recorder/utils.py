@@ -100,7 +100,7 @@ def voice2t(voice_path):
     print("**********************")
     data = "".join(data)
     text = re.findall(r'test Final result: (.*)', str(data))
-    
+    print(text)
     if (len(text) > 0):
         print(text[-1])
         return text[-1]
