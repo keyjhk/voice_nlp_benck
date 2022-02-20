@@ -8,7 +8,7 @@ from django.db import connection
 class QAPairs:
     def __init__(self):
         # self.redis = django_redis.get_redis_connection()
-        self.pairs = iter(self.qa())
+        # self.pairs = iter(self.qa())
         self.current_question = ''
         self.current_answer = ''
 
