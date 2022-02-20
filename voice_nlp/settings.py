@@ -89,10 +89,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'voice_nlp',
-        'USER': 'root',
+        'USER': 'django',
         'PASSWORD': 'mysql',
         # 'HOST': '170.106.154.208',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': 3306,
     }
 }
