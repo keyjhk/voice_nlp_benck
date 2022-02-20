@@ -17,7 +17,7 @@ from django.db import connection
 
 # Create your views here.
 TEMP_DIR = os.path.join(settings.MEDIA_ROOT, 'temp')
-CACHE = django_redis.get_redis_connection()
+# CACHE = django_redis.get_redis_connection()
 QuesAnswers = QAPairs()
 
 

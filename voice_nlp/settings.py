@@ -16,9 +16,9 @@ import os
 # redis
 # REDIS_HOST = '172.26.0.3'  # str
 # REDIS_HOST = '192.168.1.140'  # str
-REDIS_HOST = '170.106.154.208'  # str
-REDIS_PORT = 6379  # int
-REDIS_PWD = '123456'  # str
+# REDIS_HOST = '170.106.154.208'  # str
+# REDIS_PORT = 6379  # int
+# REDIS_PWD = '123456'  # str
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -98,19 +98,19 @@ DATABASES = {
 }
 
 # CACHES
-if REDIS_HOST:
-    CACHES = {
-        "default": {
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": "redis://{}:{}".format(REDIS_HOST, REDIS_PORT),
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-                "CONNECTION_POOL_KWARGS": {"max_connections": 100},
-                "PASSWORD": REDIS_PWD,
-                "DECODE_RESPONSES": True
-            }
-        },
-    }
+# if REDIS_HOST:
+#     CACHES = {
+#         "default": {
+#             "BACKEND": "django_redis.cache.RedisCache",
+#             "LOCATION": "redis://{}:{}".format(REDIS_HOST, REDIS_PORT),
+#             "OPTIONS": {
+#                 "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#                 "CONNECTION_POOL_KWARGS": {"max_connections": 100},
+#                 "PASSWORD": REDIS_PWD,
+#                 "DECODE_RESPONSES": True
+#             }
+#         },
+#     }
 
 # HTTPS
 # SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
